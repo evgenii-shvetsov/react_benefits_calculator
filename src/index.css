@@ -12,20 +12,118 @@ code {
     monospace;
 }
 
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper{
+  margin: 0 auto;
+}
+.wrapper h2{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.wrapper p{
+  max-width: 500px;
+  font-style: italic;
+  text-align: center;
+}
+
 .formStyle{
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
+  
 
 }
 .formStyle label{
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .formStyle label input,select{
   margin-left: 10px;
 }
+.shortNum{
+  width: 55px;
+}
 
-.submitBTN{
+input[type="number"]{
+  display: inline !important;
+}
+.inputValue::placeholder{
+  text-align: center;
+}
+ol li{
+  list-style: none;
+}
+
+h2{
+  text-align: center;
+}
+/*
+input[type="reset"], input[type="submit"]{
+  cursor: pointer;
   width: 100px;
   margin-top: 15px;
+  margin-left: 15px;
+  background-color: #dd0000;
+  color: #fff;
+  font-size: 1em;
+  line-height: 23px;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 7px;
+  position: relative;
+  text-align: center;
+  letter-spacing: 1px;
+  height: auto;
+  border: none;
+}
+*/
+
+.btnOrder{
+  margin-top: 15px;
+  text-align: center;
+}
+.submitBTN{
+  cursor: pointer !important;
+  width: 100px !important;
+  margin-top: 15px !important;
+  margin-left: 15px !important;
+  background-color: #dd0000 !important;
+  color: #fff !important;
+  font-size: 1em !important;
+  line-height: 23px !important;
+  display: inline-block !important;
+  text-transform: uppercase !important;
+  border-radius: 7px !important;
+  position: relative !important;
+  text-align: center !important;
+  letter-spacing: 1px !important;
+  height: auto !important;
+  border: none !important;
+  font-weight: normal !important;
+  padding: 5px 5px !important;
+  min-width: 100px !important;
+  
+}
+
+.calworksLink{
+  text-decoration: underline !important;
+}
+
+
+.submitBTN:active{
+  background-color: #8a0202 !important;
+}
+.resultList{
+  margin-top: 150px;
+}
+
+
+input:disabled{
+  display: none !important;
+}
+.submitBTN:hover{
+  color: black !important;
 }
