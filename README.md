@@ -15,16 +15,3 @@ https://www.livingwage-sf.org/calworks_cash_benefit_calculator/
 <img width="1138" alt="no_benefits" src="https://user-images.githubusercontent.com/46214277/163241567-3705116b-521b-48fd-9341-a79db3832cc6.png">
 
 
-## Available Scripts
-In the project directory, you can run:
-
-### `npm start`
-Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-### `npm run build`
-Builds the app for production to the `build` folder.
-
-
-
-
